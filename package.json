@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "npm run init_tables && jest --forceExit",
+    "init_tables": "node src/configs/initTables.js",
+    "create": "node examples/crud/create.js",
+    "read": "node examples/crud/read.js",
+    "update": "node examples/crud/update.js",
+    "delete": "node examples/crud/delete.js",
+    "start": "npm run init_tables && npm run read && npm run create && npm run read && npm run update && npm run read && npm run delete & npm run read"
+  },
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
