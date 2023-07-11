@@ -10,7 +10,7 @@ module.exports.selectById = (data, callback) =>
     
 }
 
-module.exports.insertNew = (data, callback) =>
+module.exports.insertSingle = (data, callback) =>
 {
     
 }
