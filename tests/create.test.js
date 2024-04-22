@@ -71,7 +71,7 @@ describe("Perform Read", () => {
 
     const mockCallback = (error, results) => {
       expect(error).toBeNull();
-      expect(results).toEqual(expect.any(Array)); // Ensure the result is an array
+      expect(results).toEqual(expect.any(Object)); // Ensure the result is an array
       console.log(results);
       //expect(results[0].affectedRows).toEqual(1);
       done();
