@@ -9,6 +9,17 @@
     "start": "npm run init_tables && npm run read && npm run create && npm run read && npm run update && npm run read && npm run delete & npm run read"
   },
   "dependencies": {
-    "jest": "^29.5.0"
-  }
+    "jest": "^29.5.0",
+    "mysql2": "^3.10.1"
+  },
+  "name": "bed-lab4-exercise-edgern2",
+  "version": "1.0.0",
+  "description": "This repository contains a practice for the models of an Express.js application. The practice is designed to evaluate the implementation of the model functions that interact with the database. The following instructions outline the expected behavior that will be tested.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "author": "",
+  "license": "ISC"
 }
