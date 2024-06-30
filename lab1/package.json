@@ -1,0 +1,19 @@
+{
+  "name": "bed-sandbox",
+  "version": "1.0.0",
+  "description": "testing stuffs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edgern2/BED-Test.git"
+  },
+  "author": "XJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edgern2/BED-Test/issues"
+  },
+  "homepage": "https://github.com/Edgern2/BED-Test#readme"
+}
